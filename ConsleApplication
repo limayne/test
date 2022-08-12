@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+
+int main()
+{
+    std::string a, b, c;
+    float d;
+    double e;
+    std::cin >> a >> b >> c >> d >> e;
+    std::cout << a << "\n" << b << "\n" << c << "\n";
+    std::cout << std::setprecision(3) << std::fixed << d << "\n";
+    std::cout << std::setprecision(9) << std::fixed << e << "\n";
+    return 0;
+}
